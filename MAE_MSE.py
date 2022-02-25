@@ -6,6 +6,10 @@ import open3d as o3d
 path = '/Users/samiamrouni/Downloads/newdosi_1_200403290A_19870601_ground_truth.npy'
 path1= '/Users/samiamrouni/Downloads/newdosi_1_200403290A_19870601_output_NN.npy'
     
+
+#test
+
+
 somme = 0
 somme_quadratique = 0   
 ground = np.load(path)
