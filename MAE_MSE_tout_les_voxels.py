@@ -20,7 +20,6 @@ cpt = 0
 for i in range(ground.shape[0]):
     for j in range(ground.shape[1]):
         for k in range(ground.shape[2]):
-        
                 somme += np.abs(ground[i,j,k]-output[i,j,k])
                 somme_quadratique += np.abs((ground[i,j,k]-output[i,j,k])**2)
                 cpt += 1
